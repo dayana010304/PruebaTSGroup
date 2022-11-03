@@ -53,6 +53,8 @@ if(isset($_GET["w1"])){
         new Moto("AKT", 2018, 600000),
         new Moto("HONDA", 2017, 550000),
         new Moto("YAMAHA", 2019, 503000),
+        new Moto("AKT", 2017, 403000),
+        new Moto("AKT", 2017, 330000),
     );
 
     $obj =  new Subasta($cantidadDisponible);
